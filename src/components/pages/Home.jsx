@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar';
 import Board from '../Board';
+import Button from '../Button';
 
 
 
@@ -26,6 +27,7 @@ const Home = () => {
     <>
       <Navbar />
         <Board path={source} handleImageClick={handleImageClick} />
+        <Button />
       <div></div>
     </>
   )
